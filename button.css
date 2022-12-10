@@ -1,0 +1,28 @@
+html, main{
+  background-color:rgb(17, 16, 16);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+}
+
+.btn{
+  background-color:rgb(17, 16, 16);
+  border-color: #ffa260;
+  border-width: 5px;
+  color:#ffa260;
+  font-size:60px;
+  padding:50px 70px;
+  size: 300px 300px;
+  cursor: pointer;
+  transition:transform;
+  -webkit-transition: transform 0.5s;
+}
+
+.btn:hover{
+   transform: translateY(-0.3em); 
+   box-shadow: 0 15px 18px -7px #f1ff5c;
+   color:white;
+   border-color: #f1ff5c ;
+   border-width: 5px;
+}
